@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>senai.inlock.webApi.</name>
+    </assembly>
+    <members>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudiosRepository.ListarTodos">
+            <summary>
+            Lista todos os estudios
+            </summary>
+            <returns>Uma lista com os estúdios encontrados</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudiosRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um estúdio específico
+            </summary>
+            <param name="id">ID do estúdio a ser buscado</param>
+            <returns>O estúdio encontrado</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudiosRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um estúdio específico
+            </summary>
+            <param name="id">ID do estúdio a ser buscado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudiosRepository.Cadastrar(senai.inlock.webApi_.Domains.EstudiosDomain)">
+            <summary>
+            Cria um estúdio específico
+            </summary>
+            <param name="studio">O estúdio a ser adicionado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IEstudiosRepository.Atualizar(senai.inlock.webApi_.Domains.EstudiosDomain,System.Int32)">
+            <summary>
+            Atualiza um estúdio existente
+            </summary>
+            <param name="newStudio">Dados atualizados</param>
+            <param name="id">ID do estúdio a ser atualizado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogosRepository.ListarTodos">
+            <summary>
+            Lista todos os jogos
+            </summary>
+            <returns>Uma lista com os jogos encontrados</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogosRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um jogo específico
+            </summary>
+            <param name="id">ID do jogo a ser buscado</param>
+            <returns>O jogo encontrado</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogosRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um jogo específico
+            </summary>
+            <param name="id">ID do jogo a ser buscado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogosRepository.Cadastrar(senai.inlock.webApi_.Domains.JogosDomain)">
+            <summary>
+            Cria um jogo específico
+            </summary>
+            <param name="game">O jogo a ser adicionado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IJogosRepository.Atualizar(senai.inlock.webApi_.Domains.JogosDomain,System.Int32)">
+            <summary>
+            Atualiza um jogo existente
+            </summary>
+            <param name="newGame">Dados atualizados</param>
+            <param name="id">ID do jogo a ser atualizado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Interfaces.IUsuariosRepository.Logar(senai.inlock.webApi_.Domains.UsuariosDomain)">
+            <summary>
+            Loga o usuário
+            </summary>
+            <param name="UserLog">Credenciais de login</param>
+            <returns></returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositories.EstudiosRepository.Atualizar(senai.inlock.webApi_.Domains.EstudiosDomain,System.Int32)">
+            <summary>
+            Atualiza um estúdio existente
+            </summary>
+            <param name="newStudio">Dados atualizados</param>
+            <param name="id">ID do estúdio a ser atualizado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositories.EstudiosRepository.BuscarPorId(System.Int32)">
+            <summary>
+            Busca um estúdio específico
+            </summary>
+            <param name="id">ID do estúdio a ser buscado</param>
+            <returns>O estúdio encontrado</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositories.EstudiosRepository.Cadastrar(senai.inlock.webApi_.Domains.EstudiosDomain)">
+            <summary>
+            Busca um estúdio específico
+            </summary>
+            <param name="id">ID do estúdio a ser buscado</param>
+            <returns>O estúdio encontrado</returns>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositories.EstudiosRepository.Deletar(System.Int32)">
+            <summary>
+            Deleta um estúdio específico
+            </summary>
+            <param name="id">ID do estúdio a ser buscado</param>
+        </member>
+        <member name="M:senai.inlock.webApi_.Repositories.EstudiosRepository.ListarTodos">
+            <summary>
+            Lista todos os estudios
+            </summary>
+            <returns>Uma lista com os estúdios encontrados</returns>
+        </member>
+    </members>
+</doc>
